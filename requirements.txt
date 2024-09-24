@@ -1,0 +1,7 @@
+configargparse
+transformers
+openai
+torch
+pillow
+accelerate
+bitsandbytes
