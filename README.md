@@ -1,7 +1,7 @@
 # A Unified Hallucination Mitigation Framework for Large Vision-Language Models
 
 
-<font size=3><div align='center' >  \[[Read our arXiv Paper]()\]</div></font>
+<font size=3><div align='center' >  \[[Read our arXiv Paper](https://arxiv.org/abs/2409.16494)\]</div></font>
 
 -----------------
 > Hallucination is a common problem for Large Vision-Language Models (LVLMs) with long
@@ -26,7 +26,7 @@ To the best of our knowledge, our work is the first to distinguish treatment bas
 We first select 3 currently mainstream LVLMs as our baseline models, including [InstructBLIP](https://github.com/salesforce/LAVIS/tree/main/projects/instructblip),
 [LLaVA](https://github.com/haotian-liu/LLaVA), and [VisualGLM](https://github.com/THUDM/VisualGLM-6B).
 
-The sizes of baseline parameters are as followed, and please refer to [our paper]() for more details. 
+The sizes of baseline parameters are as followed, and please refer to [our paper](https://arxiv.org/abs/2409.16494) for more details. 
 
 <p align="center">
     <img src="./figs/baseline.png" width="96%" height="96%">
@@ -34,7 +34,7 @@ The sizes of baseline parameters are as followed, and please refer to [our paper
 
 ## Experiment
 We use the above three models to complete experiments on MMbench, LLaVA-QA90, CHAIR and POPE. For comparison, each experiment set up [Woodpecker](https://github.com/BradyFU/Woodpecker) as a control.
-The experimental results are shown below, and you can check [our paper]() for more details.
+The experimental results are shown below, and you can check [our paper](https://arxiv.org/abs/2409.16494) for more details.
 
 ### MMbench Result
 <p align="center">
@@ -147,6 +147,7 @@ This work is inspired by [MMbench](https://github.com/open-compass/MMBench) and 
 
 
 ## Citation
+If you find our project helpful to your research, please consider citing:
 ```bash
 
 ```
